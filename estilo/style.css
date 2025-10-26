@@ -111,6 +111,8 @@ main aside ul{
 
 aside#img03{
     background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.imagem{
