@@ -83,7 +83,7 @@ main img.pequena{
     max-width: 350px;
     display: block;
     margin: auto;
-}
+} 
 
 main aside{
     background-color: #94f10800;
@@ -107,6 +107,10 @@ main aside ul{
     list-style-type: square;
     list-style-position: inside;
     font-size: 1.2em;
+}
+
+aside#img03{
+    background-position: right center;
 }
 
 section.imagem{
