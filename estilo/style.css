@@ -35,6 +35,7 @@ header h1{
     font-family: 'Hacker Fonte 2', cursive;
     text-align: center;
     font-size: 4em;
+    border-radius: 5px;
 }
 
 header p{
@@ -43,17 +44,17 @@ header p{
 }
 
 main{
-    background-color: #bbe676;
+    background-color: #bbe676b7;
     border-radius: 5px;
     margin: 20px;
     padding: 10px 10px 5px 10px;
-   
 }
 
 main h1{
     background-image: linear-gradient(to right, #02fd0270, transparent);
     font-family: 'Hacker Fonte 2', cursive;
     text-align: center;
+    border-radius: 5px;
 }
 
 main h2{
@@ -61,6 +62,7 @@ main h2{
     background-image: linear-gradient(to right, #02fd0270, transparent);
     font-family: 'Hacker Fonte 2', cursive;
     color: #0a520a;
+    border-radius: 5px;
 }
 
 main p{
@@ -84,7 +86,7 @@ main img.pequena{
 }
 
 main aside{
-    background-color: #4b691d;
+    background-color: #94f10800;
     border-radius: 5px;
     margin: 20px 10px;
     padding-left: 5px;
@@ -93,12 +95,13 @@ main aside{
 }
 
 main aside h3{
-    background-image: linear-gradient(to right, #65921d, transparent);
+    background-image: linear-gradient(to right, #7db327, transparent);
     font-family: 'Hacker Fonte 2', cursive;
+    border-radius: 5px;
 }
 
 main aside ul{
-    background-color: #73a81d;
+    background-color: #73a81d71;
     border-radius: 5px;
     padding: 10px 10px 10px 10px;
     list-style-type: square;
@@ -106,8 +109,41 @@ main aside ul{
     font-size: 1.2em;
 }
 
+section.imagem{
+    display: inline-block;
+    padding: 5px;
+    background-color: #00000091;
+    text-shadow: 1px 1px 0px black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img01{
+    background-image: url('../imagens/hacker-anonymous.png');
+}
+
+section#img02{
+    background-image: url('../imagens/hacker-bracos.png');
+}
+
+aside#img03{
+    background-image: url('../imagens/hacker-bracos.png');
+}
+
+section#img04{
+    background-image: url('../imagens/hacker-mascara.png');
+}
+
+section p{
+    color: white;
+}
+
 footer{
-    background-color: green;
+    background-color: #00800036;
 }
 
 footer p{
